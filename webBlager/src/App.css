@@ -1,0 +1,30 @@
+.divs{
+  height: 100px;
+  width: 100px;
+}
+.passWord{
+  position: relative;
+}
+.passWord button{
+  position: absolute;
+  left: 50%;
+}
+.lightTheme{
+  background-color: white;
+}
+.darkTheme{
+  background-color: black;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+.apiBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1em;
+}
+.apiBox div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
